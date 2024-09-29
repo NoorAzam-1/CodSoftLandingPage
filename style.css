@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+}
+
+body {
+
+    font-family: "Inria Sans", sans-serif;
+    background-image: url("bg.webp");
+}
+
+/* //////////////////////////////////////////////////////////////////////// 
+NAVBAR
+//////////////////////////////////////////////////////////////////////// */
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.header header nav {
+    display: flex;
+    background-color: rgba(145, 150, 150, 0.493);
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.logo h2 {
+    margin: 0 10px;
+}
+
+.items ul {
+    display: flex;
+    margin-top: 15px;
+}
+
+.items ul li {
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.items ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 30px;
+}
+
+/* //////////////////////////////////////////////////////////////////////// 
+CONTAINER
+//////////////////////////////////////////////////////////////////////// */
+
+.container-para .tag {
+    font-size: 2.2em;
+    font-weight: 400;
+    color: #ff0000;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.container-para h1 {
+    font-size: 4.5em;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.container-para p {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 26px;
+}
+
+.contentPara {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input input {
+    border-radius: 30px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 600;
+
+}
+
+/* //////////////////////////////////////////////////////////////////////// 
+FOOTER
+//////////////////////////////////////////////////////////////////////// */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    color: white;
+}
